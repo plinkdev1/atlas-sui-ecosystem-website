@@ -51,3 +51,13 @@ npm run dev                    # http://localhost:3000
 ## Notes
 
 The interactive dApp is a separate application. Shared as a portfolio artifact demonstrating product and system design.
+
+## The Atlas Ecosystem
+
+Part of the Atlas ecosystem on Sui:
+
+| Repository | Role |
+|---|---|
+| **atlas-website** (this repo) | Landing site & provider portal |
+| [atlas-app](https://github.com/plinkdev1/atlas-app) | dApp + Sui Move contracts |
+| [airpoints](https://github.com/plinkdev1/airpoints) | Loyalty & rewards engine — the $ATLAS flywheel |
