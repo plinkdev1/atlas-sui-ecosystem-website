@@ -9,7 +9,7 @@
 <p align="center">
   <img src="screenshots/01.png" width="240" />
   <img src="screenshots/03.png" width="240" />
-  <img src="screenshots/05.png" width="240" />
+  <img src="screenshots/06.png" width="240" />
 </p>
 
 ## Overview
@@ -54,3 +54,4 @@ npm run dev                    # http://localhost:3000
 ## Notes
 
 Shared as a portfolio artifact demonstrating product and system design.
+
