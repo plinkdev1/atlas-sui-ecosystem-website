@@ -1,6 +1,8 @@
-﻿# Atlas Protocol — The Hub for Sui (Landing & Provider Portal)
+﻿# Atlas Protocol — The Hub for Sui
 
-> The marketing site and ecosystem/provider portal for Atlas Protocol — a discovery hub for the Sui ecosystem. The interactive dApp (swap, bridge, stake, wallet tools) runs as a separate application.
+![Next.js](https://img.shields.io/badge/Next.js-16-000000) ![React](https://img.shields.io/badge/React-19-61DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind-v4-06B6D4) ![Supabase](https://img.shields.io/badge/Supabase-Postgres-3ECF8E)
+
+> The discovery layer for the Sui ecosystem — a curated directory of protocols and infrastructure providers, with a provider-listing portal and admin moderation, and the marketing front for the Atlas toolkit.
 
 **Status:** Landing & portal — builds and runs locally.
 
@@ -12,30 +14,31 @@
   <img src="screenshots/06.png" width="240" />
 </p>
 
-## Overview
+## What It Is
 
-Atlas aggregates Sui protocols, infrastructure providers, tools, and curated knowledge into one designed hub. This repository is the public-facing landing site and provider directory; it showcases the tools and links out to the interactive app.
+A single, designed entry point to Sui: discover protocols across ~19 categories, browse and apply as an infrastructure provider, and explore the tools — then jump into the interactive app. Built as the public face that sits in front of the Atlas dApp.
 
 ## Features
 
 - **Protocol ecosystem directory** — protocols across ~19 categories (wallets, DEX, bridges, perps, lending, liquid staking, oracles, NFT, RWA, gaming, SocialFi, DePIN, storage, identity, launchpads, prediction markets, AI agents, BTC primitives, hardware wallets).
-- **Infrastructure provider portal** — listings, provider applications, ratings, and an admin moderation dashboard (approve / reject / feature).
-- **Tool overview pages** — swap, bridge, stake, oracle feeds, explorer, wallet cleanup, and an AI transaction explainer, each linking to the live app.
+- **Infrastructure provider portal** — listings, provider applications, ratings, and a full admin moderation dashboard (approve / reject / feature / delete).
+- **Tool showcase** — overview pages for swap, bridge, stake, oracle feeds, explorer, wallet cleanup, and the AI transaction explainer.
 - **Support** — partner tiers, docs hub, contact, and legal pages.
-- **Graceful degradation** — Supabase calls fall back to a mock client when env vars are absent, so the site builds and runs without secrets.
+
+## Engineering Highlights
+
+- **Provider moderation workflow** — application intake, ratings, logo upload, and admin actions backed by Supabase.
+- **Keyless builds** — Supabase calls fall back to a mock client when env vars are absent, so the site builds and runs with zero secrets.
+- **Strict design system** — a 5-color palette (`#070D1A` / `#F0F4FF` / `#2B7FFF` / `#0F1629`), Space Grotesk + Inter typography.
 
 ## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
 | Framework | Next.js 16 (App Router), React 19 |
-| Styling | Tailwind CSS v4, shadcn/ui, Space Grotesk + Inter |
+| Styling | Tailwind CSS v4, shadcn/ui |
 | Backend | Supabase (Postgres) — optional, with mock fallback |
 | Hosting | Vercel |
-
-## Architecture
-
-Supabase tables: `provider_listings`, `provider_applications`, `cookie_consents`, `risk_disclaimers`. SQL migrations in `scripts/`. Design system uses a strict 5-color palette: background `#070D1A`, foreground `#F0F4FF`, primary `#2B7FFF`, muted `#0F1629`.
 
 ## Getting Started
 
@@ -45,14 +48,6 @@ cp .env.example .env.local     # optional — runs with a mock client if omitted
 npm run dev                    # http://localhost:3000
 ```
 
-## Known Limitations
-
-- The interactive dApp is a separate deployment; this repo is the landing/portal layer.
-- Configure Supabase for live provider data.
-- Pin Next.js to a patched 16.x release.
-
 ## Notes
 
-Shared as a portfolio artifact demonstrating product and system design.
-
-
+The interactive dApp is a separate application. Shared as a portfolio artifact demonstrating product and system design.
