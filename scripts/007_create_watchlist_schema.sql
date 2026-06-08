@@ -1,0 +1,26 @@
+-- Watchlist data is stored in user_data table with data_type = 'watchlist'
+-- No additional table needed as we use existing user_data with RLS
+-- This script documents the watchlist schema structure
+
+-- Example user_data rows for watchlist:
+-- {
+--   id: uuid,
+--   user_id: uuid (references auth.users),
+--   data_type: 'watchlist',
+--   asset_id: 'sui' or 'ethereum' (CoinGecko ID),
+--   asset_type: 'token' or 'nft',
+--   value: {
+--     asset_id: string,
+--     asset_type: string,
+--     name: string,
+--     symbol: string,
+--     price?: number,
+--     change24h?: number,
+--     image?: string
+--   },
+--   created_at: timestamp,
+--   updated_at: timestamp
+-- }
+
+-- RLS policies in user_data table already handle watchlist protection
+-- Users can only view/edit their own watchlist items

@@ -1,0 +1,21 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ÔÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\MAXI KROOKED\pnpm-lock.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\MAXI KROOKED\OneDrive\├ürea de Trabalho\PROJECTS\Atlas-Website\v0-sui-atlas-main\v0-sui-atlas-main\package-lock.json
+
+   Ôû▓ Next.js 16.0.10 (Turbopack)
+   - Environments: .env.local, .env
+   - Experiments (use with caution):
+     ┬À optimizePackageImports
+
+
+> Build error occurred
+Error: Both middleware file "./middleware.ts" and proxy file "./proxy.ts" are detected. Please use "./proxy.ts" only. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+    at ignore-listed frames

@@ -1,0 +1,18 @@
+{
+  "testnet": {
+    "package_id": "",
+    "treasury": "",
+    "registry": "",
+    "deployment_date": "",
+    "deployer": "",
+    "status": "pending_deployment"
+  },
+  "mainnet": {
+    "package_id": "",
+    "treasury": "",
+    "registry": "",
+    "deployment_date": "",
+    "deployer": "",
+    "status": "pending_deployment"
+  }
+}

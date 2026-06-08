@@ -1,0 +1,11 @@
+# Atlas Protocol Robots Configuration
+User-agent: *
+Allow: /
+Allow: /docs/
+Allow: /wallet-cleanup
+Allow: /transaction-explainer
+Allow: /infra-discovery
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /api/
+Sitemap: https://atlas-protocol.vercel.app/sitemap.xml

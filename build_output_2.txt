@@ -1,0 +1,226 @@
+
+> my-v0-project@0.1.0 build
+> next build
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ ÔÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\MAXI KROOKED\pnpm-lock.yaml as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\MAXI KROOKED\OneDrive\├ürea de Trabalho\PROJECTS\Atlas-Website\v0-sui-atlas-main\v0-sui-atlas-main\package-lock.json
+
+   Ôû▓ Next.js 16.0.10 (Turbopack)
+   - Environments: .env.local, .env
+   - Experiments (use with caution):
+     ┬À optimizePackageImports
+
+   Creating an optimized production build ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+ Ô£ô Compiled successfully in 9.3s
+   Running TypeScript ...
+   Collecting page data using 11 workers ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   Generating static pages using 11 workers (0/154) ...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+   Generating static pages using 11 workers (38/154) 
+   Generating static pages using 11 workers (76/154) 
+   Generating static pages using 11 workers (115/154) 
+ Ô£ô Generating static pages using 11 workers (154/154) in 1968.4ms
+   Finalizing page optimization ...
+
+Route (app)
+Ôöî Ôùï /
+Ôö£ Ôùï /_not-found
+Ôö£ Ôùï /about
+Ôö£ Ôùï /admin
+Ôö£ Ôùï /admin/advertising
+Ôö£ Ôùï /admin/analytics
+Ôö£ Ôùï /admin/dashboard
+Ôö£ Ôùï /admin/partners
+Ôö£ ãÆ /api/admin/analytics
+Ôö£ ãÆ /api/admin/login
+Ôö£ ãÆ /api/admin/moderation
+Ôö£ ãÆ /api/admin/moderation-log
+Ôö£ ãÆ /api/admin/providers
+Ôö£ ãÆ /api/admin/providers/[id]/approve
+Ôö£ ãÆ /api/admin/providers/[id]/delete
+Ôö£ ãÆ /api/admin/providers/[id]/feature
+Ôö£ ãÆ /api/admin/providers/[id]/moderate
+Ôö£ ãÆ /api/admin/providers/[id]/reject
+Ôö£ ãÆ /api/admin/stats
+Ôö£ ãÆ /api/admin/users
+Ôö£ ãÆ /api/admin/verify
+Ôö£ ãÆ /api/admin/verify-password
+Ôö£ ãÆ /api/ads
+Ôö£ ãÆ /api/ads/[id]
+Ôö£ ãÆ /api/ads/reorder
+Ôö£ ãÆ /api/advertising
+Ôö£ ãÆ /api/advertising/[id]
+Ôö£ ãÆ /api/advertising/reorder
+Ôö£ ãÆ /api/ai/explain
+Ôö£ ãÆ /api/airpoints
+Ôö£ ãÆ /api/analytics/wallet
+Ôö£ ãÆ /api/auth/login
+Ôö£ ãÆ /api/auth/logout
+Ôö£ ãÆ /api/auth/passkey/login/options
+Ôö£ ãÆ /api/auth/passkey/login/verify
+Ôö£ ãÆ /api/auth/passkey/register/options
+Ôö£ ãÆ /api/auth/passkey/register/verify
+Ôö£ ãÆ /api/auth/profile
+Ôö£ ãÆ /api/auth/register
+Ôö£ ãÆ /api/auth/signout
+Ôö£ ãÆ /api/auth/user
+Ôö£ ãÆ /api/auth/wallet
+Ôö£ ãÆ /api/auth/zklogin/callback
+Ôö£ ãÆ /api/auth/zklogin/initiate
+Ôö£ ãÆ /api/blockberry
+Ôö£ ãÆ /api/blockvision
+Ôö£ ãÆ /api/bridge/execute
+Ôö£ ãÆ /api/bridge/routes
+Ôö£ ãÆ /api/cetus/config
+Ôö£ ãÆ /api/cetus/pool-aprs
+Ôö£ ãÆ /api/cetus/stake-execute
+Ôö£ ãÆ /api/cetus/swap-execute
+Ôö£ ãÆ /api/cetus/swap-quote
+Ôö£ ãÆ /api/contact/partnership
+Ôö£ ãÆ /api/cookies/check
+Ôö£ ãÆ /api/cookies/save
+Ôö£ ãÆ /api/disclaimers/accept
+Ôö£ ãÆ /api/disclaimers/check
+Ôö£ ãÆ /api/entitlements
+Ôö£ ãÆ /api/entitlements/[id]/cancel
+Ôö£ ãÆ /api/entitlements/[id]/usage
+Ôö£ ãÆ /api/entitlements/purchase
+Ôö£ ãÆ /api/explorer/blocks
+Ôö£ ãÆ /api/explorer/search
+Ôö£ ãÆ /api/explorer/transaction/[hash]
+Ôö£ ãÆ /api/explorer/wallet/[address]
+Ôö£ ãÆ /api/feedback
+Ôö£ ãÆ /api/internal/user-status
+Ôö£ ãÆ /api/keys
+Ôö£ ãÆ /api/keys/[id]
+Ôö£ ãÆ /api/keys/[id]/usage
+Ôö£ ãÆ /api/keys/generate
+Ôö£ ãÆ /api/lemon-webhook
+Ôö£ ãÆ /api/logos
+Ôö£ ãÆ /api/nft/[id]
+Ôö£ ãÆ /api/nft/listings
+Ôö£ ãÆ /api/nft/owned
+Ôö£ ãÆ /api/nft/trade
+Ôö£ ãÆ /api/oracle/alerts
+Ôö£ ãÆ /api/oracle/prices
+Ôö£ ãÆ /api/payment/treasury
+Ôö£ ãÆ /api/prices
+Ôö£ ãÆ /api/providers
+Ôö£ ãÆ /api/providers/[id]
+Ôö£ ãÆ /api/providers/[id]/details
+Ôö£ ãÆ /api/providers/[id]/ratings
+Ôö£ ãÆ /api/providers/[id]/upload-logo
+Ôö£ ãÆ /api/providers/analytics
+Ôö£ ãÆ /api/providers/listings
+Ôö£ ãÆ /api/providers/my-listings
+Ôö£ ãÆ /api/providers/search
+Ôö£ ãÆ /api/providers/usage
+Ôö£ ãÆ /api/stake/calculate-rewards
+Ôö£ ãÆ /api/stake/user-delegations
+Ôö£ ãÆ /api/stake/validators
+Ôö£ ãÆ /api/stripe-webhook
+Ôö£ ãÆ /api/subscription
+Ôö£ ãÆ /api/swap/execute
+Ôö£ ãÆ /api/swap/quotes
+Ôö£ ãÆ /api/tiers
+Ôö£ ãÆ /api/usage/analytics
+Ôö£ ãÆ /api/usage/by-endpoint
+Ôö£ ãÆ /api/usage/quota
+Ôö£ ãÆ /api/usage/track
+Ôö£ ãÆ /api/watchlist
+Ôö£ Ôùï /auth
+Ôö£ ãÆ /auth/callback
+Ôö£ Ôùï /bridge-hub
+Ôö£ Ôùï /cetus-test
+Ôö£ Ôùï /contact
+Ôö£ Ôùï /contact/partnership
+Ôö£ Ôùï /docs
+Ôö£ Ôùï /docs/admin-partners
+Ôö£ Ôùï /docs/architecture
+Ôö£ Ôùï /docs/blockchains
+Ôö£ Ôùï /docs/cetus-integration
+Ôö£ Ôùï /docs/final-audit
+Ôö£ Ôùï /docs/infra-discovery
+Ôö£ Ôùï /docs/infra-discovery-audit
+Ôö£ Ôùï /docs/network-testing
+Ôö£ Ôùï /docs/payments
+Ôö£ Ôùï /docs/transaction-explainer
+Ôö£ Ôùï /docs/transaction-explainer-audit
+Ôö£ Ôùï /docs/usage-tracking
+Ôö£ Ôùï /docs/wallet-cleanup
+Ôö£ Ôùï /docs/wallet-cleanup-audit
+Ôö£ Ôùï /explorer
+Ôö£ Ôùï /hub
+Ôö£ Ôùï /infra-discovery
+Ôö£ Ôùï /nft
+Ôö£ Ôùï /oracle-feeds
+Ôö£ Ôùï /partners
+Ôö£ Ôùï /privacy-policy
+Ôö£ Ôùï /pro-upgrade
+Ôö£ Ôùï /protocols
+Ôö£ Ôùï /protocols/ai-agents
+Ôö£ Ôùï /protocols/bridges
+Ôö£ Ôùï /protocols/btc-primitives
+Ôö£ Ôùï /protocols/depin
+Ôö£ Ôùï /protocols/dex
+Ôö£ Ôùï /protocols/gaming
+Ôö£ Ôùï /protocols/hardware-wallets
+Ôö£ Ôùï /protocols/identity
+Ôö£ Ôùï /protocols/launchpads
+Ôö£ Ôùï /protocols/lending
+Ôö£ Ôùï /protocols/liquid-staking
+Ôö£ Ôùï /protocols/nft
+Ôö£ Ôùï /protocols/oracles
+Ôö£ Ôùï /protocols/perps
+Ôö£ Ôùï /protocols/prediction-markets
+Ôö£ Ôùï /protocols/rwa
+Ôö£ Ôùï /protocols/socialfi
+Ôö£ Ôùï /protocols/storage
+Ôö£ Ôùï /protocols/wallets
+Ôö£ Ôùï /provider-dashboard
+Ôö£ Ôùï /rfp-deliverables
+Ôö£ Ôùï /settings
+Ôö£ Ôùï /settings/rpc
+Ôö£ Ôùï /stake-hub
+Ôö£ Ôùï /subscription
+Ôö£ Ôùï /swap-aggregator
+Ôö£ Ôùï /terms-of-service
+Ôö£ Ôùï /tools
+Ôö£ Ôùï /tools/bridge
+Ôö£ Ôùï /tools/oracle-feeds
+Ôö£ Ôùï /tools/stake
+Ôö£ Ôùï /tools/swap
+Ôö£ Ôùï /tools/transaction-explainer
+Ôö£ Ôùï /tools/wallet-cleanup
+Ôö£ Ôùï /transaction-explainer
+Ôöö Ôùï /wallet-cleanup
+
+
+ãÆ Proxy (Middleware)
+
+Ôùï  (Static)   prerendered as static content
+ãÆ  (Dynamic)  server-rendered on demand
+
