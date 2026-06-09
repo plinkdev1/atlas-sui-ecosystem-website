@@ -13,6 +13,8 @@
 
 </div>
 
+> **Related:** the on-chain dApp -> [atlas-sui-defi-dapp](https://github.com/plinkdev1/atlas-sui-defi-dapp)
+
 ---
 
 ## What Is This?
