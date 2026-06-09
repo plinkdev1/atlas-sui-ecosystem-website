@@ -1,63 +1,185 @@
-﻿# Atlas Protocol — The Hub for Sui
+﻿<div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-16-000000) ![React](https://img.shields.io/badge/React-19-61DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind-v4-06B6D4) ![Supabase](https://img.shields.io/badge/Supabase-Postgres-3ECF8E)
+# Atlas
 
-> The discovery layer for the Sui ecosystem — a curated directory of protocols and infrastructure providers, with a provider-listing portal and admin moderation, and the marketing front for the Atlas toolkit.
+**The ecosystem gateway for Atlas on Sui**
 
-**Status:** Landing & portal — builds and runs locally.
+[![Sui](https://img.shields.io/badge/Sui-6FBCF0?logo=sui&logoColor=white)](https://sui.io)
+[![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Status](https://img.shields.io/badge/status-MVP-orange)]()
 
-## Screens
+*The front door to the Atlas ecosystem - products, docs, and community in one place.*
 
-<p align="center">
-  <img src="screenshots/04.png" width="240" />
-  <img src="screenshots/05.png" width="240" />
-  <img src="screenshots/06.png" width="240" />
-</p>
+</div>
 
-## What It Is
+---
 
-A single, designed entry point to Sui: discover protocols across ~19 categories, browse and apply as an infrastructure provider, and explore the tools — then jump into the interactive app. Built as the public face that sits in front of the Atlas dApp.
+## What Is This?
+
+Atlas is a DeFi ecosystem built on Sui. This is its public-facing website: the landing experience, ecosystem overview, and gateway into the Atlas dApp, documentation, and community.
+
+> **One home for the Atlas ecosystem.**
+
+---
 
 ## Features
 
-- **Protocol ecosystem directory** — protocols across ~19 categories (wallets, DEX, bridges, perps, lending, liquid staking, oracles, NFT, RWA, gaming, SocialFi, DePIN, storage, identity, launchpads, prediction markets, AI agents, BTC primitives, hardware wallets).
-- **Infrastructure provider portal** — listings, provider applications, ratings, and a full admin moderation dashboard (approve / reject / feature / delete).
-- **Tool showcase** — overview pages for swap, bridge, stake, oracle feeds, explorer, wallet cleanup, and the AI transaction explainer.
-- **Support** — partner tiers, docs hub, contact, and legal pages.
+| Feature | Description | Status |
+|---|---|:---:|
+| Landing / hero | Animated marketing landing | ✅ |
+| Ecosystem overview | What Atlas is and how the pieces fit | ✅ |
+| Product gateway | Links into the Atlas dApp and tools | ✅ |
+| Docs & community | Resource and social links | ✅ |
+| Responsive design | Mobile-friendly layout | ✅ |
 
-## Engineering Highlights
+---
 
-- **Provider moderation workflow** — application intake, ratings, logo upload, and admin actions backed by Supabase.
-- **Keyless builds** — Supabase calls fall back to a mock client when env vars are absent, so the site builds and runs with zero secrets.
-- **Strict design system** — a 5-color palette (`#070D1A` / `#F0F4FF` / `#2B7FFF` / `#0F1629`), Space Grotesk + Inter typography.
+## How It Works
+
+```
+Landing / hero
+     │
+     ├─▶ Ecosystem overview
+     ├─▶ Atlas dApp
+     └─▶ Docs · community
+```
+
+---
 
 ## Tech Stack
 
 | Layer | Technology |
 |-------|------------|
-| Framework | Next.js 16 (App Router), React 19 |
-| Styling | Tailwind CSS v4, shadcn/ui |
-| Backend | Supabase (Postgres) — optional, with mock fallback |
-| Hosting | Vercel |
+| Frontend | Next.js, React, TypeScript |
+| Styling | Tailwind CSS, shadcn/ui |
+| Ecosystem | Sui |
+
+---
+
+## Project Structure
+
+```
+atlas-sui-ecosystem-website/
+.vscode/
+   settings.json
+app/
+   about/
+   admin/
+   api/
+   auth/
+   bridge-hub/
+   cetus-test/
+components/
+   ui/
+   ad-carousel.tsx
+   ad-management-modal.tsx
+   admin-dashboard-content.tsx
+   admin-moderation-dashboard.tsx
+   airpoints-display.tsx
+contracts/
+   sources/
+   deployed_addresses.json
+   Move.toml
+docs/
+   ADMIN_PARTNERS_SYSTEM.md
+   advertising-guide.md
+   Airpoints-Guide.md
+   ARCHITECTURE.md
+   ARRAY-CALLBACK-FIXES.md
+   ATLAS_BUILD_PLAN.md
+hooks/
+   use-airpoints-earn.ts
+   use-airpoints-sync.tsx
+   use-airpoints.ts
+   use-analytics.ts
+   use-mobile.ts
+   use-pro-status.ts
+lib/
+   db/
+   supabase/
+   admin-auth.ts
+   admin-check.ts
+   ads-data.ts
+   ai-explain-utils.ts
+public/
+   images/
+   logos/
+   3d-coin-atlas.png
+   atlas-logo.png
+   footer-effect.png
+   icon.svg
+scripts/
+   001_create_wallet_users_schema.sql
+   002_create_user_profiles_table.sql
+   003_create_user_data_table.sql
+   004_create_providers_table.sql
+   005_add_admin_moderation.sql
+   006_create_entitlements_table.sql
+styles/
+   globals.css
+types/
+   advertising.ts
+   chain-id.ts
+   database.ts
+   subscription.ts
+utils/
+   api/
+.gitignore
+build_output.txt
+build_output_2.txt
+components.json
+CONTRIBUTING.md
+DATABASE_MIGRATION_STATUS.md
+next.config.mjs
+next-env.d.ts
+package.json
+package-lock.json
+postcss.config.mjs
+proxy.ts
+README.md
+tsconfig.json
+```
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/01.png" width="800" />
+  <img src="screenshots/02.png" width="800" />
+  <img src="screenshots/03.png" width="800" />
+  <img src="screenshots/04.png" width="800" />
+  <img src="screenshots/05.png" width="800" />
+  <img src="screenshots/06.png" width="800" />
+</p>
+
+---
 
 ## Getting Started
 
 ```bash
-npm install --legacy-peer-deps
-cp .env.example .env.local     # optional — runs with a mock client if omitted
-npm run dev                    # http://localhost:3000
+npm install --legacy-peer-deps --ignore-scripts
+npx next dev
 ```
+
+---
+
+## Roadmap
+
+- Live ecosystem directory
+- Integrated docs
+- Wallet-aware ecosystem stats
+
+---
 
 ## Notes
 
-The interactive dApp is a separate application. Shared as a portfolio artifact demonstrating product and system design.
+Shared as a portfolio artifact demonstrating product and system design. Early prototype, not a finished product.
 
-## The Atlas Ecosystem
+<div align="center">
 
-Part of the Atlas ecosystem on Sui:
+Built on Sui · MIT
 
-| Repository | Role |
-|---|---|
-| **atlas-website** (this repo) | Landing site & provider portal |
-| [atlas-app](https://github.com/plinkdev1/atlas-app) | dApp + Sui Move contracts |
-| [airpoints](https://github.com/plinkdev1/airpoints) | Loyalty & rewards engine — the $ATLAS flywheel |
+</div>
