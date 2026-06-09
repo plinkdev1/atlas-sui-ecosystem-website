@@ -13,7 +13,7 @@
 
 </div>
 
-> **Related:** the on-chain dApp -> [atlas-sui-defi-dapp](https://github.com/plinkdev1/atlas-sui-defi-dapp)
+> **Related:** the on-chain dApp -> [sui-defi-dapp](https://github.com/plinkdev1/sui-defi-dapp)
 
 ---
 
@@ -60,7 +60,7 @@ Landing / hero
 ## Project Structure
 
 ```
-atlas-sui-ecosystem-website/
+sui-defi-ecosystem-website/
 .vscode/
    settings.json
 app/
