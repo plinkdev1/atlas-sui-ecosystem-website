@@ -7,7 +7,6 @@
 [![Sui](https://img.shields.io/badge/Sui-6FBCF0?logo=sui&logoColor=white)](https://sui.io)
 [![Next.js](https://img.shields.io/badge/Next.js-000?logo=next.js&logoColor=white)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![Status](https://img.shields.io/badge/status-MVP-orange)]()
 
 *The front door to the Atlas ecosystem - products, docs, and community in one place.*
@@ -19,8 +18,6 @@
 ## What Is This?
 
 Atlas is a DeFi ecosystem built on Sui. This is its public-facing website: the landing experience, ecosystem overview, and gateway into the Atlas dApp, documentation, and community.
-
-> **One home for the Atlas ecosystem.**
 
 ---
 
@@ -146,14 +143,11 @@ tsconfig.json
 
 ## Screenshots
 
-<p align="center">
-  <img src="screenshots/01.png" width="800" />
-  <img src="screenshots/02.png" width="800" />
-  <img src="screenshots/03.png" width="800" />
-  <img src="screenshots/04.png" width="800" />
-  <img src="screenshots/05.png" width="800" />
-  <img src="screenshots/06.png" width="800" />
-</p>
+<table>
+<tr><td width="50%"><img src="screenshots/01.png" width="100%" /></td><td width="50%"><img src="screenshots/02.png" width="100%" /></td></tr>
+<tr><td width="50%"><img src="screenshots/03.png" width="100%" /></td><td width="50%"><img src="screenshots/04.png" width="100%" /></td></tr>
+<tr><td width="50%"><img src="screenshots/05.png" width="100%" /></td><td width="50%"><img src="screenshots/06.png" width="100%" /></td></tr>
+</table>
 
 ---
 
@@ -166,14 +160,6 @@ npx next dev
 
 ---
 
-## Roadmap
-
-- Live ecosystem directory
-- Integrated docs
-- Wallet-aware ecosystem stats
-
----
-
 ## Notes
 
 Shared as a portfolio artifact demonstrating product and system design. Early prototype, not a finished product.
@@ -183,4 +169,3 @@ Shared as a portfolio artifact demonstrating product and system design. Early pr
 Built on Sui · MIT
 
 </div>
-
