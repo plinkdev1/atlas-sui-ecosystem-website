@@ -1,6 +1,6 @@
-﻿<div align="center">
+<div align="center">
 
-# Atlas
+# Sui DeFi Ecosystem Website
 
 **The ecosystem gateway for Atlas on Sui**
 
