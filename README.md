@@ -13,7 +13,7 @@
 
 </div>
 
-> **Available for development and custom work.** This is a working prototype / showcase. I can build and deliver the complete product - including the private production backend - or adapt it for your needs, under a development agreement (post-agreement fee). **Get in touch:** https://github.com/plinkdev1
+> **Available for development and custom work.** This is a working prototype / showcase. I can build and deliver the complete product - including the private production backend - or adapt it for your needs, under a development agreement. **Get in touch:** [x.com/franny_dustmast](https://x.com/franny_dustmast)
 
 
 > **Related:** the on-chain dApp -> [sui-defi-dapp](https://github.com/plinkdev1/sui-defi-dapp)
